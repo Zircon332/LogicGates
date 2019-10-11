@@ -1,7 +1,7 @@
 <circuit>
 <CurrentPage>0</CurrentPage>
 <page 0>
-<PageViewport>-30,0,109.4,-70.2</PageViewport>
+<PageViewport>2.31214,-4.36478,61.1215,-65.8352</PageViewport>
 <gate>
 <ID>18</ID>
 <type>AA_TOGGLE</type>
@@ -86,23 +86,11 @@
 <lparam>OUTPUT_BITS 1</lparam>
 <lparam>OUTPUT_NUM 0</lparam></gate>
 <gate>
-<ID>36</ID>
-<type>AA_TOGGLE</type>
-<position>12,-33</position>
-<output>
-<ID>OUT_0</ID>8 </output>
-<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
-<gparam>angle 0.0</gparam>
-<lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 0</lparam></gate>
-<gate>
 <ID>38</ID>
 <type>AA_AND2</type>
 <position>19,-30.5</position>
 <input>
 <ID>IN_0</ID>7 </input>
-<input>
-<ID>IN_1</ID>8 </input>
 <output>
 <ID>OUT</ID>9 </output>
 <gparam>angle 0.0</gparam>
@@ -250,28 +238,6 @@
 <name>IN_0</name></connection>
 <intersection>15 0</intersection></hsegment></shape></wire>
 <wire>
-<ID>8</ID>
-<shape>
-<vsegment>
-<ID>0</ID>
-<points>15,-33,15,-31.5</points>
-<intersection>-33 1</intersection>
-<intersection>-31.5 2</intersection></vsegment>
-<hsegment>
-<ID>1</ID>
-<points>14,-33,15,-33</points>
-<connection>
-<GID>36</GID>
-<name>OUT_0</name></connection>
-<intersection>15 0</intersection></hsegment>
-<hsegment>
-<ID>2</ID>
-<points>15,-31.5,16,-31.5</points>
-<connection>
-<GID>38</GID>
-<name>IN_1</name></connection>
-<intersection>15 0</intersection></hsegment></shape></wire>
-<wire>
 <ID>9</ID>
 <shape>
 <hsegment>
@@ -284,20 +250,20 @@
 <GID>39</GID>
 <name>N_in0</name></connection></hsegment></shape></wire></page 0>
 <page 1>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 1>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 1>
 <page 2>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 2>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 2>
 <page 3>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 3>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 3>
 <page 4>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 4>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 4>
 <page 5>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 5>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 5>
 <page 6>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 6>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 6>
 <page 7>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 7>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 7>
 <page 8>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 8>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 8>
 <page 9>
-<PageViewport>0,0,139.4,-70.2</PageViewport></page 9></circuit>
+<PageViewport>0,37.7538,139.4,-107.954</PageViewport></page 9></circuit>
