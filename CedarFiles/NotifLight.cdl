@@ -1,7 +1,7 @@
 <circuit>
 <CurrentPage>0</CurrentPage>
 <page 0>
-<PageViewport>-373.33,-410.661,214.763,-706.817</PageViewport>
+<PageViewport>107.744,-284.783,328.279,-395.841</PageViewport>
 <gate>
 <ID>1</ID>
 <type>AA_LABEL</type>
@@ -95,7 +95,7 @@
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam>
 <lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 0</lparam></gate>
+<lparam>OUTPUT_NUM 1</lparam></gate>
 <gate>
 <ID>9</ID>
 <type>AE_OR2</type>
@@ -164,7 +164,7 @@
 <ID>count_enable</ID>779 </input>
 <gparam>VALUE_BOX -0.8,-0.8,0.8,1.8</gparam>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 2</lparam>
+<lparam>CURRENT_VALUE 4</lparam>
 <lparam>INPUT_BITS 4</lparam>
 <lparam>MAX_COUNT 15</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -442,7 +442,7 @@
 <type>AA_TOGGLE</type>
 <position>-260,-365</position>
 <output>
-<ID>OUT_0</ID>796 </output>
+<ID>OUT_0</ID>798 </output>
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam>
 <lparam>OUTPUT_BITS 1</lparam>
@@ -543,17 +543,6 @@
 <lparam>OUTPUT_BITS 1</lparam>
 <lparam>OUTPUT_NUM 1</lparam></gate>
 <gate>
-<ID>801</ID>
-<type>AE_SMALL_INVERTER</type>
-<position>-254.5,-365</position>
-<input>
-<ID>IN_0</ID>796 </input>
-<output>
-<ID>OUT_0</ID>797 </output>
-<gparam>angle 0.0</gparam>
-<lparam>DEFAULT_DELAY 1</lparam>
-<lparam>INPUT_BITS 1</lparam></gate>
-<gate>
 <ID>33</ID>
 <type>AE_OR2</type>
 <position>66.5,20</position>
@@ -565,17 +554,6 @@
 <ID>OUT</ID>59 </output>
 <gparam>angle 270</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
-<gate>
-<ID>802</ID>
-<type>AE_SMALL_INVERTER</type>
-<position>-250.5,-365</position>
-<input>
-<ID>IN_0</ID>797 </input>
-<output>
-<ID>OUT_0</ID>798 </output>
-<gparam>angle 0.0</gparam>
-<lparam>DEFAULT_DELAY 1</lparam>
-<lparam>INPUT_BITS 1</lparam></gate>
 <gate>
 <ID>34</ID>
 <type>AE_DFF_LOW</type>
@@ -671,17 +649,6 @@
 <gparam>angle 270</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
 <gate>
-<ID>807</ID>
-<type>AE_SMALL_INVERTER</type>
-<position>-243.5,-537</position>
-<input>
-<ID>IN_0</ID>801 </input>
-<output>
-<ID>OUT_0</ID>670 </output>
-<gparam>angle 270</gparam>
-<lparam>DEFAULT_DELAY 1</lparam>
-<lparam>INPUT_BITS 1</lparam></gate>
-<gate>
 <ID>39</ID>
 <type>AE_DFF_LOW</type>
 <position>80.5,13</position>
@@ -698,17 +665,6 @@
 <lparam>SYNC_CLEAR false</lparam>
 <lparam>SYNC_LOAD true</lparam>
 <lparam>SYNC_SET false</lparam></gate>
-<gate>
-<ID>808</ID>
-<type>AE_SMALL_INVERTER</type>
-<position>-243.5,-533</position>
-<input>
-<ID>IN_0</ID>499 </input>
-<output>
-<ID>OUT_0</ID>801 </output>
-<gparam>angle 270</gparam>
-<lparam>DEFAULT_DELAY 1</lparam>
-<lparam>INPUT_BITS 1</lparam></gate>
 <gate>
 <ID>40</ID>
 <type>AA_AND2</type>
@@ -1432,7 +1388,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -1558,7 +1514,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -1622,7 +1578,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -2010,7 +1966,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -2457,7 +2413,7 @@
 <ID>count_enable</ID>143 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 22</lparam>
+<lparam>CURRENT_VALUE 23</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -2541,7 +2497,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -3703,7 +3659,7 @@
 <ID>count_enable</ID>250 </input>
 <gparam>VALUE_BOX -0.8,-0.8,0.8,1.8</gparam>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 7</lparam>
+<lparam>CURRENT_VALUE 8</lparam>
 <lparam>INPUT_BITS 4</lparam>
 <lparam>MAX_COUNT 15</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -4369,7 +4325,7 @@
 <ID>count_enable</ID>71 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 20</lparam>
+<lparam>CURRENT_VALUE 21</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -4654,7 +4610,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -4971,7 +4927,7 @@
 <ID>count_enable</ID>347 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 23</lparam>
+<lparam>CURRENT_VALUE 24</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -6005,7 +5961,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6225,7 +6181,7 @@
 <input>
 <ID>clock</ID>520 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6289,7 +6245,7 @@
 <ID>load</ID>490 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 195</lparam>
+<lparam>CURRENT_VALUE 18</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -6420,7 +6376,7 @@
 <ID>load</ID>470 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 131</lparam>
+<lparam>CURRENT_VALUE 210</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -6437,7 +6393,7 @@
 <input>
 <ID>clock</ID>675 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6505,7 +6461,7 @@
 <input>
 <ID>clock</ID>675 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 1</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6539,7 +6495,7 @@
 <input>
 <ID>clock</ID>675 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 1</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6628,7 +6584,7 @@
 <ID>load</ID>481 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 195</lparam>
+<lparam>CURRENT_VALUE 18</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -6645,7 +6601,7 @@
 <input>
 <ID>clock</ID>676 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6713,7 +6669,7 @@
 <input>
 <ID>clock</ID>676 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 1</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6747,7 +6703,7 @@
 <input>
 <ID>clock</ID>676 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6764,7 +6720,7 @@
 <input>
 <ID>clock</ID>676 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -6801,7 +6757,7 @@
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam>
 <lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 1</lparam></gate>
+<lparam>OUTPUT_NUM 0</lparam></gate>
 <gate>
 <ID>498</ID>
 <type>AA_TOGGLE</type>
@@ -6811,7 +6767,7 @@
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam>
 <lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 1</lparam></gate>
+<lparam>OUTPUT_NUM 0</lparam></gate>
 <gate>
 <ID>499</ID>
 <type>AA_TOGGLE</type>
@@ -6831,7 +6787,7 @@
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam>
 <lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 0</lparam></gate>
+<lparam>OUTPUT_NUM 1</lparam></gate>
 <gate>
 <ID>501</ID>
 <type>AA_TOGGLE</type>
@@ -6871,7 +6827,7 @@
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam>
 <lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 1</lparam></gate>
+<lparam>OUTPUT_NUM 0</lparam></gate>
 <gate>
 <ID>505</ID>
 <type>AA_TOGGLE</type>
@@ -6918,7 +6874,7 @@
 <input>
 <ID>IN_1</ID>498 </input>
 <output>
-<ID>OUT</ID>499 </output>
+<ID>OUT</ID>670 </output>
 <gparam>angle 180</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
 <gate>
@@ -7542,28 +7498,6 @@
 <gparam>angle 270</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
 <gate>
-<ID>559</ID>
-<type>AE_SMALL_INVERTER</type>
-<position>64.5,-615</position>
-<input>
-<ID>IN_0</ID>584 </input>
-<output>
-<ID>OUT_0</ID>582 </output>
-<gparam>angle 270</gparam>
-<lparam>DEFAULT_DELAY 1</lparam>
-<lparam>INPUT_BITS 1</lparam></gate>
-<gate>
-<ID>560</ID>
-<type>AE_SMALL_INVERTER</type>
-<position>64.5,-611</position>
-<input>
-<ID>IN_0</ID>648 </input>
-<output>
-<ID>OUT_0</ID>584 </output>
-<gparam>angle 270</gparam>
-<lparam>DEFAULT_DELAY 1</lparam>
-<lparam>INPUT_BITS 1</lparam></gate>
-<gate>
 <ID>561</ID>
 <type>AA_AND2</type>
 <position>90,-642</position>
@@ -7991,7 +7925,7 @@
 <ID>count_enable</ID>571 </input>
 <gparam>VALUE_BOX -0.8,-0.8,0.8,1.8</gparam>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 9</lparam>
 <lparam>INPUT_BITS 4</lparam>
 <lparam>MAX_COUNT 15</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -8637,7 +8571,7 @@
 <ID>load</ID>644 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 195</lparam>
+<lparam>CURRENT_VALUE 135</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -8688,7 +8622,7 @@
 <input>
 <ID>clock</ID>665 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 1</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -8756,7 +8690,7 @@
 <input>
 <ID>clock</ID>665 </input>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -8865,7 +8799,7 @@
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam>
 <lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 1</lparam></gate>
+<lparam>OUTPUT_NUM 0</lparam></gate>
 <gate>
 <ID>658</ID>
 <type>GA_LED</type>
@@ -8939,7 +8873,7 @@
 <input>
 <ID>IN_0</ID>807 </input>
 <output>
-<ID>OUT_0</ID>648 </output>
+<ID>OUT_0</ID>582 </output>
 <gparam>angle 180</gparam>
 <lparam>DEFAULT_DELAY 1</lparam>
 <lparam>INPUT_BITS 1</lparam></gate>
@@ -8966,7 +8900,7 @@
 <input>
 <ID>clock</ID>678 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 1</lparam>
+<lparam>CURRENT_VALUE 0</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -9015,7 +8949,7 @@
 <input>
 <ID>clock</ID>678 </input>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 1</lparam>
 <lparam>INPUT_BITS 1</lparam>
 <lparam>NO_HOLD true</lparam>
 <lparam>SYNC_CLEAR false</lparam>
@@ -10112,18 +10046,6 @@
 <GID>40</GID>
 <name>OUT</name></connection></hsegment></shape></wire>
 <wire>
-<ID>796</ID>
-<shape>
-<hsegment>
-<ID>1</ID>
-<points>-258,-365,-256.5,-365</points>
-<connection>
-<GID>801</GID>
-<name>IN_0</name></connection>
-<connection>
-<GID>795</GID>
-<name>OUT_0</name></connection></hsegment></shape></wire>
-<wire>
 <ID>28</ID>
 <shape>
 <vsegment>
@@ -10140,18 +10062,6 @@
 <GID>51</GID>
 <name>OUT_0</name></connection>
 <intersection>-58.5 0</intersection></hsegment></shape></wire>
-<wire>
-<ID>797</ID>
-<shape>
-<vsegment>
-<ID>0</ID>
-<points>-252.5,-365,-252.5,-365</points>
-<connection>
-<GID>801</GID>
-<name>OUT_0</name></connection>
-<connection>
-<GID>802</GID>
-<name>IN_0</name></connection></vsegment></shape></wire>
 <wire>
 <ID>29</ID>
 <shape>
@@ -10174,9 +10084,9 @@
 <shape>
 <hsegment>
 <ID>1</ID>
-<points>-248.5,-365,-237,-365</points>
+<points>-258,-365,-237,-365</points>
 <connection>
-<GID>802</GID>
+<GID>795</GID>
 <name>OUT_0</name></connection>
 <intersection>-245.5 14</intersection>
 <intersection>-237 7</intersection></hsegment>
@@ -10280,18 +10190,6 @@
 <GID>48</GID>
 <name>OUT_0</name></connection>
 <intersection>-56.5 0</intersection></hsegment></shape></wire>
-<wire>
-<ID>801</ID>
-<shape>
-<vsegment>
-<ID>0</ID>
-<points>-243.5,-535,-243.5,-535</points>
-<connection>
-<GID>807</GID>
-<name>IN_0</name></connection>
-<connection>
-<GID>808</GID>
-<name>OUT_0</name></connection></vsegment></shape></wire>
 <wire>
 <ID>33</ID>
 <shape>
@@ -20955,18 +20853,6 @@
 <name>OUT_0</name></connection>
 <intersection>-230.5 0</intersection></hsegment></shape></wire>
 <wire>
-<ID>499</ID>
-<shape>
-<hsegment>
-<ID>1</ID>
-<points>-243.5,-531,-238.5,-531</points>
-<connection>
-<GID>808</GID>
-<name>IN_0</name></connection>
-<connection>
-<GID>509</GID>
-<name>OUT</name></connection></hsegment></shape></wire>
-<wire>
 <ID>500</ID>
 <shape>
 <vsegment>
@@ -22619,12 +22505,11 @@
 <shape>
 <vsegment>
 <ID>7</ID>
-<points>60,-627.5,60,-617</points>
+<points>60,-627.5,60,-621</points>
 <connection>
 <GID>563</GID>
 <name>IN_0</name></connection>
-<intersection>-621 10</intersection>
-<intersection>-617 43</intersection></vsegment>
+<intersection>-621 10</intersection></vsegment>
 <hsegment>
 <ID>10</ID>
 <points>60,-621,63.5,-621</points>
@@ -22635,9 +22520,10 @@
 <intersection>63.5 28</intersection></hsegment>
 <vsegment>
 <ID>28</ID>
-<points>63.5,-621,63.5,-619</points>
+<points>63.5,-621,63.5,-609</points>
 <intersection>-621 10</intersection>
-<intersection>-619 29</intersection></vsegment>
+<intersection>-619 29</intersection>
+<intersection>-609 45</intersection></vsegment>
 <hsegment>
 <ID>29</ID>
 <points>63.5,-619,67.5,-619</points>
@@ -22646,12 +22532,12 @@
 <name>IN_0</name></connection>
 <intersection>63.5 28</intersection></hsegment>
 <hsegment>
-<ID>43</ID>
-<points>60,-617,64.5,-617</points>
+<ID>45</ID>
+<points>63.5,-609,68.5,-609</points>
 <connection>
-<GID>559</GID>
+<GID>665</GID>
 <name>OUT_0</name></connection>
-<intersection>60 7</intersection></hsegment></shape></wire>
+<intersection>63.5 28</intersection></hsegment></shape></wire>
 <wire>
 <ID>583</ID>
 <shape>
@@ -22664,18 +22550,6 @@
 <connection>
 <GID>652</GID>
 <name>IN_1</name></connection></vsegment></shape></wire>
-<wire>
-<ID>584</ID>
-<shape>
-<hsegment>
-<ID>0</ID>
-<points>64.5,-613,64.5,-613</points>
-<connection>
-<GID>559</GID>
-<name>IN_0</name></connection>
-<connection>
-<GID>560</GID>
-<name>OUT_0</name></connection></hsegment></shape></wire>
 <wire>
 <ID>585</ID>
 <shape>
@@ -24210,18 +24084,6 @@
 <name>IN_0</name></connection>
 <intersection>-612 1</intersection></vsegment></shape></wire>
 <wire>
-<ID>648</ID>
-<shape>
-<hsegment>
-<ID>1</ID>
-<points>64.5,-609,68.5,-609</points>
-<connection>
-<GID>560</GID>
-<name>IN_0</name></connection>
-<connection>
-<GID>665</GID>
-<name>OUT_0</name></connection></hsegment></shape></wire>
-<wire>
 <ID>649</ID>
 <shape>
 <vsegment>
@@ -24846,14 +24708,12 @@
 <shape>
 <vsegment>
 <ID>7</ID>
-<points>-243.5,-546.5,-243.5,-539</points>
-<connection>
-<GID>807</GID>
-<name>OUT_0</name></connection>
+<points>-243.5,-546.5,-243.5,-531</points>
 <connection>
 <GID>104</GID>
 <name>IN_0</name></connection>
-<intersection>-539.5 10</intersection></vsegment>
+<intersection>-539.5 10</intersection>
+<intersection>-531 31</intersection></vsegment>
 <hsegment>
 <ID>10</ID>
 <points>-243.5,-539.5,-240,-539.5</points>
@@ -24861,19 +24721,26 @@
 <GID>690</GID>
 <name>IN_0</name></connection>
 <intersection>-243.5 7</intersection>
-<intersection>-240 28</intersection></hsegment>
-<vsegment>
-<ID>28</ID>
-<points>-240,-539.5,-240,-537.5</points>
-<intersection>-539.5 10</intersection>
-<intersection>-537.5 29</intersection></vsegment>
+<intersection>-240.5 32</intersection></hsegment>
 <hsegment>
-<ID>29</ID>
-<points>-240,-537.5,-236,-537.5</points>
+<ID>31</ID>
+<points>-243.5,-531,-238.5,-531</points>
+<connection>
+<GID>509</GID>
+<name>OUT</name></connection>
+<intersection>-243.5 7</intersection></hsegment>
+<vsegment>
+<ID>32</ID>
+<points>-240.5,-539.5,-240.5,-537.5</points>
+<intersection>-539.5 10</intersection>
+<intersection>-537.5 33</intersection></vsegment>
+<hsegment>
+<ID>33</ID>
+<points>-240.5,-537.5,-236,-537.5</points>
 <connection>
 <GID>697</GID>
 <name>IN_0</name></connection>
-<intersection>-240 28</intersection></hsegment></shape></wire>
+<intersection>-240.5 32</intersection></hsegment></shape></wire>
 <wire>
 <ID>671</ID>
 <shape>
@@ -25417,20 +25284,20 @@
 <GID>697</GID>
 <name>IN_1</name></connection></vsegment></shape></wire></page 0>
 <page 1>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 1>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 1>
 <page 2>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 2>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 2>
 <page 3>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 3>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 3>
 <page 4>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 4>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 4>
 <page 5>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 5>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 5>
 <page 6>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 6>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 6>
 <page 7>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 7>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 7>
 <page 8>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 8>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 8>
 <page 9>
-<PageViewport>-10.6032,2324.66,1383.4,1622.66</PageViewport></page 9></circuit>
+<PageViewport>-10.6032,2702.2,1383.4,2000.2</PageViewport></page 9></circuit>
