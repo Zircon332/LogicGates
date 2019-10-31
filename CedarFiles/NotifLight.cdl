@@ -1,7 +1,7 @@
 <circuit>
 <CurrentPage>0</CurrentPage>
 <page 0>
-<PageViewport>-205.65,-429.147,293.36,-686.51</PageViewport>
+<PageViewport>40.014,-609.517,138.792,-660.462</PageViewport>
 <gate>
 <ID>1</ID>
 <type>AA_LABEL</type>
@@ -164,7 +164,7 @@
 <ID>count_enable</ID>779 </input>
 <gparam>VALUE_BOX -0.8,-0.8,0.8,1.8</gparam>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 5</lparam>
+<lparam>CURRENT_VALUE 6</lparam>
 <lparam>INPUT_BITS 4</lparam>
 <lparam>MAX_COUNT 15</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -2413,7 +2413,7 @@
 <ID>count_enable</ID>143 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 24</lparam>
+<lparam>CURRENT_VALUE 25</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -3659,7 +3659,7 @@
 <ID>count_enable</ID>250 </input>
 <gparam>VALUE_BOX -0.8,-0.8,0.8,1.8</gparam>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 1</lparam>
 <lparam>INPUT_BITS 4</lparam>
 <lparam>MAX_COUNT 15</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -4325,7 +4325,7 @@
 <ID>count_enable</ID>71 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 22</lparam>
+<lparam>CURRENT_VALUE 23</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -4927,7 +4927,7 @@
 <ID>count_enable</ID>347 </input>
 <gparam>VALUE_BOX -1.8,-0.8,1.8,1.8</gparam>
 <gparam>angle 0.0</gparam>
-<lparam>CURRENT_VALUE 25</lparam>
+<lparam>CURRENT_VALUE 26</lparam>
 <lparam>INPUT_BITS 8</lparam>
 <lparam>MAX_COUNT 255</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -6947,7 +6947,7 @@
 <gate>
 <ID>515</ID>
 <type>AA_MUX_2x1</type>
-<position>171.5,-585</position>
+<position>178,-598</position>
 <input>
 <ID>IN_0</ID>645 </input>
 <input>
@@ -6961,21 +6961,21 @@
 <gate>
 <ID>516</ID>
 <type>AA_LABEL</type>
-<position>161.5,-590</position>
+<position>181.5,-611.5</position>
 <gparam>LABEL_TEXT Default lights</gparam>
 <gparam>TEXT_HEIGHT 1</gparam>
 <gparam>angle 0.0</gparam></gate>
 <gate>
 <ID>517</ID>
 <type>AA_LABEL</type>
-<position>156,-581.5</position>
+<position>149,-595.5</position>
 <gparam>LABEL_TEXT Notification lights</gparam>
 <gparam>TEXT_HEIGHT 1</gparam>
 <gparam>angle 0.0</gparam></gate>
 <gate>
 <ID>518</ID>
 <type>AA_LABEL</type>
-<position>221,-565.5</position>
+<position>210.5,-563.5</position>
 <gparam>LABEL_TEXT Light</gparam>
 <gparam>TEXT_HEIGHT 1</gparam>
 <gparam>angle 0.0</gparam></gate>
@@ -7925,7 +7925,7 @@
 <ID>count_enable</ID>571 </input>
 <gparam>VALUE_BOX -0.8,-0.8,0.8,1.8</gparam>
 <gparam>angle 90</gparam>
-<lparam>CURRENT_VALUE 0</lparam>
+<lparam>CURRENT_VALUE 1</lparam>
 <lparam>INPUT_BITS 4</lparam>
 <lparam>MAX_COUNT 15</lparam>
 <lparam>SYNC_CLEAR true</lparam>
@@ -7975,7 +7975,7 @@
 <gate>
 <ID>598</ID>
 <type>AE_DFF_LOW</type>
-<position>101.5,-629</position>
+<position>101,-629</position>
 <input>
 <ID>IN_0</ID>610 </input>
 <output>
@@ -8054,7 +8054,7 @@
 <gate>
 <ID>604</ID>
 <type>AE_DFF_LOW</type>
-<position>110.5,-629</position>
+<position>111,-629</position>
 <input>
 <ID>IN_0</ID>612 </input>
 <output>
@@ -8071,7 +8071,7 @@
 <gate>
 <ID>605</ID>
 <type>AA_AND2</type>
-<position>113,-616</position>
+<position>114,-616</position>
 <input>
 <ID>IN_0</ID>589 </input>
 <input>
@@ -8083,7 +8083,7 @@
 <gate>
 <ID>606</ID>
 <type>AA_AND2</type>
-<position>117,-616</position>
+<position>118,-616</position>
 <input>
 <ID>IN_0</ID>647 </input>
 <input>
@@ -8095,7 +8095,7 @@
 <gate>
 <ID>607</ID>
 <type>AE_OR2</type>
-<position>115,-622</position>
+<position>116,-622</position>
 <input>
 <ID>IN_0</ID>593 </input>
 <input>
@@ -8107,7 +8107,7 @@
 <gate>
 <ID>608</ID>
 <type>AE_DFF_LOW</type>
-<position>119.5,-629</position>
+<position>121,-629</position>
 <input>
 <ID>IN_0</ID>614 </input>
 <output>
@@ -8124,7 +8124,7 @@
 <gate>
 <ID>609</ID>
 <type>AA_AND2</type>
-<position>122,-616</position>
+<position>124,-616</position>
 <input>
 <ID>IN_0</ID>589 </input>
 <input>
@@ -8136,7 +8136,7 @@
 <gate>
 <ID>610</ID>
 <type>AA_AND2</type>
-<position>126,-616</position>
+<position>128,-616</position>
 <input>
 <ID>IN_0</ID>647 </input>
 <input>
@@ -8148,7 +8148,7 @@
 <gate>
 <ID>611</ID>
 <type>AE_OR2</type>
-<position>124,-622</position>
+<position>126,-622</position>
 <input>
 <ID>IN_0</ID>596 </input>
 <input>
@@ -8160,7 +8160,7 @@
 <gate>
 <ID>612</ID>
 <type>AE_DFF_LOW</type>
-<position>129,-629</position>
+<position>131,-629</position>
 <input>
 <ID>IN_0</ID>613 </input>
 <output>
@@ -8177,7 +8177,7 @@
 <gate>
 <ID>613</ID>
 <type>AA_AND2</type>
-<position>131.5,-616</position>
+<position>134,-616</position>
 <input>
 <ID>IN_0</ID>589 </input>
 <input>
@@ -8189,7 +8189,7 @@
 <gate>
 <ID>614</ID>
 <type>AA_AND2</type>
-<position>135.5,-616</position>
+<position>138,-616</position>
 <input>
 <ID>IN_0</ID>647 </input>
 <input>
@@ -8201,7 +8201,7 @@
 <gate>
 <ID>615</ID>
 <type>AE_OR2</type>
-<position>133.5,-622</position>
+<position>136,-622</position>
 <input>
 <ID>IN_0</ID>599 </input>
 <input>
@@ -8213,7 +8213,7 @@
 <gate>
 <ID>616</ID>
 <type>AE_DFF_LOW</type>
-<position>138,-629</position>
+<position>141,-629</position>
 <input>
 <ID>IN_0</ID>615 </input>
 <output>
@@ -8230,7 +8230,7 @@
 <gate>
 <ID>617</ID>
 <type>AA_AND2</type>
-<position>140.5,-616</position>
+<position>144,-616</position>
 <input>
 <ID>IN_0</ID>589 </input>
 <input>
@@ -8242,7 +8242,7 @@
 <gate>
 <ID>618</ID>
 <type>AA_AND2</type>
-<position>144.5,-616</position>
+<position>148,-616</position>
 <input>
 <ID>IN_0</ID>647 </input>
 <input>
@@ -8254,7 +8254,7 @@
 <gate>
 <ID>619</ID>
 <type>AE_OR2</type>
-<position>142.5,-622</position>
+<position>146,-622</position>
 <input>
 <ID>IN_0</ID>602 </input>
 <input>
@@ -8266,7 +8266,7 @@
 <gate>
 <ID>620</ID>
 <type>AE_DFF_LOW</type>
-<position>147,-629</position>
+<position>151,-629</position>
 <input>
 <ID>IN_0</ID>616 </input>
 <output>
@@ -8283,7 +8283,7 @@
 <gate>
 <ID>621</ID>
 <type>AA_AND2</type>
-<position>149.5,-616</position>
+<position>154,-616</position>
 <input>
 <ID>IN_0</ID>589 </input>
 <input>
@@ -8295,7 +8295,7 @@
 <gate>
 <ID>622</ID>
 <type>AA_AND2</type>
-<position>153.5,-616</position>
+<position>158,-616</position>
 <input>
 <ID>IN_0</ID>647 </input>
 <input>
@@ -8307,7 +8307,7 @@
 <gate>
 <ID>623</ID>
 <type>AE_OR2</type>
-<position>151.5,-622</position>
+<position>156,-622</position>
 <input>
 <ID>IN_0</ID>605 </input>
 <input>
@@ -8319,7 +8319,7 @@
 <gate>
 <ID>624</ID>
 <type>AE_DFF_LOW</type>
-<position>156,-629</position>
+<position>161,-629</position>
 <input>
 <ID>IN_0</ID>617 </input>
 <output>
@@ -8336,7 +8336,7 @@
 <gate>
 <ID>625</ID>
 <type>AA_AND2</type>
-<position>158.5,-616</position>
+<position>164,-616</position>
 <input>
 <ID>IN_0</ID>589 </input>
 <input>
@@ -8348,7 +8348,7 @@
 <gate>
 <ID>626</ID>
 <type>AA_AND2</type>
-<position>162.5,-616</position>
+<position>168,-616</position>
 <input>
 <ID>IN_0</ID>647 </input>
 <input>
@@ -8360,7 +8360,7 @@
 <gate>
 <ID>627</ID>
 <type>AE_OR2</type>
-<position>160.5,-622</position>
+<position>166,-622</position>
 <input>
 <ID>IN_0</ID>608 </input>
 <input>
@@ -8372,7 +8372,7 @@
 <gate>
 <ID>628</ID>
 <type>AE_DFF_LOW</type>
-<position>165,-629</position>
+<position>171,-629</position>
 <input>
 <ID>IN_0</ID>618 </input>
 <output>
@@ -8548,7 +8548,7 @@
 <gate>
 <ID>641</ID>
 <type>AE_REGISTER8</type>
-<position>213.5,-567</position>
+<position>203,-565</position>
 <input>
 <ID>IN_0</ID>636 </input>
 <input>
@@ -8580,7 +8580,7 @@
 <gate>
 <ID>642</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-593</position>
+<position>189,-593</position>
 <input>
 <ID>IN_0</ID>635 </input>
 <output>
@@ -8597,7 +8597,7 @@
 <gate>
 <ID>643</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-584.5</position>
+<position>189,-585</position>
 <input>
 <ID>IN_0</ID>636 </input>
 <output>
@@ -8614,7 +8614,7 @@
 <gate>
 <ID>644</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-576</position>
+<position>189,-577</position>
 <input>
 <ID>IN_0</ID>637 </input>
 <output>
@@ -8631,7 +8631,7 @@
 <gate>
 <ID>645</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-568</position>
+<position>189,-569</position>
 <input>
 <ID>IN_0</ID>638 </input>
 <output>
@@ -8648,7 +8648,7 @@
 <gate>
 <ID>646</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-560.5</position>
+<position>189,-561</position>
 <input>
 <ID>IN_0</ID>639 </input>
 <output>
@@ -8665,7 +8665,7 @@
 <gate>
 <ID>647</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-553</position>
+<position>189,-553</position>
 <input>
 <ID>IN_0</ID>640 </input>
 <output>
@@ -8682,7 +8682,7 @@
 <gate>
 <ID>648</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-545.5</position>
+<position>189,-545</position>
 <input>
 <ID>IN_0</ID>641 </input>
 <output>
@@ -8699,7 +8699,7 @@
 <gate>
 <ID>649</ID>
 <type>AE_DFF_LOW</type>
-<position>186.5,-538</position>
+<position>189,-537</position>
 <input>
 <ID>IN_0</ID>642 </input>
 <output>
@@ -8716,7 +8716,7 @@
 <gate>
 <ID>650</ID>
 <type>AA_TOGGLE</type>
-<position>212.5,-559</position>
+<position>202,-557</position>
 <output>
 <ID>OUT_0</ID>644 </output>
 <gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
@@ -8726,7 +8726,7 @@
 <gate>
 <ID>651</ID>
 <type>AE_SMALL_INVERTER</type>
-<position>212.5,-574</position>
+<position>202,-572</position>
 <input>
 <ID>IN_0</ID>665 </input>
 <output>
@@ -8880,7 +8880,7 @@
 <gate>
 <ID>667</ID>
 <type>AE_OR2</type>
-<position>181,-618.5</position>
+<position>183,-634.5</position>
 <input>
 <ID>IN_0</ID>586 </input>
 <input>
@@ -10355,13 +10355,13 @@
 <shape>
 <hsegment>
 <ID>7</ID>
-<points>-229.5,-482.5,171.5,-482.5</points>
+<points>-229.5,-482.5,178,-482.5</points>
 <intersection>-229.5 13</intersection>
 <intersection>74 24</intersection>
-<intersection>171.5 10</intersection></hsegment>
+<intersection>178 10</intersection></hsegment>
 <vsegment>
 <ID>10</ID>
-<points>171.5,-582.5,171.5,-482.5</points>
+<points>178,-595.5,178,-482.5</points>
 <connection>
 <GID>515</GID>
 <name>SEL_0</name></connection>
@@ -19683,12 +19683,12 @@
 <intersection>175.5 1043</intersection></hsegment>
 <vsegment>
 <ID>1043</ID>
-<points>175.5,-649.5,175.5,-619.5</points>
+<points>175.5,-649.5,175.5,-635.5</points>
 <intersection>-649.5 1042</intersection>
-<intersection>-619.5 1046</intersection></vsegment>
+<intersection>-635.5 1046</intersection></vsegment>
 <hsegment>
 <ID>1046</ID>
-<points>175.5,-619.5,178,-619.5</points>
+<points>175.5,-635.5,180,-635.5</points>
 <connection>
 <GID>667</GID>
 <name>IN_1</name></connection>
@@ -20753,13 +20753,18 @@
 <shape>
 <hsegment>
 <ID>1</ID>
-<points>72,-584,169.5,-584</points>
+<points>72,-597,176,-597</points>
+<connection>
+<GID>515</GID>
+<name>IN_1</name></connection>
+<intersection>72 2</intersection></hsegment>
+<vsegment>
+<ID>2</ID>
+<points>72,-597,72,-584</points>
 <connection>
 <GID>514</GID>
 <name>OUT</name></connection>
-<connection>
-<GID>515</GID>
-<name>IN_1</name></connection></hsegment></shape></wire>
+<intersection>-597 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>495</ID>
 <shape>
@@ -22630,71 +22635,57 @@
 <ID>2</ID>
 <points>93,-634,173,-634</points>
 <intersection>93 20</intersection>
-<intersection>98.5 9</intersection>
+<intersection>98 9</intersection>
 <intersection>107.5 8</intersection>
 <intersection>116.5 7</intersection>
-<intersection>126 6</intersection>
-<intersection>135 16</intersection>
-<intersection>144 12</intersection>
-<intersection>153 14</intersection>
-<intersection>162 11</intersection>
+<intersection>125.5 6</intersection>
+<intersection>134.5 16</intersection>
+<intersection>143.5 12</intersection>
+<intersection>157 14</intersection>
+<intersection>161.5 11</intersection>
 <intersection>173 24</intersection></hsegment>
 <vsegment>
 <ID>6</ID>
-<points>126,-634,126,-630</points>
-<connection>
-<GID>612</GID>
-<name>clock</name></connection>
-<intersection>-634 2</intersection></vsegment>
+<points>125.5,-634,125.5,-630</points>
+<intersection>-634 2</intersection>
+<intersection>-630 29</intersection></vsegment>
 <vsegment>
 <ID>7</ID>
 <points>116.5,-634,116.5,-630</points>
-<connection>
-<GID>608</GID>
-<name>clock</name></connection>
-<intersection>-634 2</intersection></vsegment>
+<intersection>-634 2</intersection>
+<intersection>-630 28</intersection></vsegment>
 <vsegment>
 <ID>8</ID>
 <points>107.5,-634,107.5,-630</points>
-<connection>
-<GID>604</GID>
-<name>clock</name></connection>
-<intersection>-634 2</intersection></vsegment>
+<intersection>-634 2</intersection>
+<intersection>-630 35</intersection></vsegment>
 <vsegment>
 <ID>9</ID>
-<points>98.5,-634,98.5,-630</points>
+<points>98,-634,98,-630</points>
 <connection>
 <GID>598</GID>
 <name>clock</name></connection>
 <intersection>-634 2</intersection></vsegment>
 <vsegment>
 <ID>11</ID>
-<points>162,-634,162,-630</points>
-<connection>
-<GID>628</GID>
-<name>clock</name></connection>
-<intersection>-634 2</intersection></vsegment>
+<points>161.5,-634,161.5,-630</points>
+<intersection>-634 2</intersection>
+<intersection>-630 33</intersection></vsegment>
 <vsegment>
 <ID>12</ID>
-<points>144,-634,144,-630</points>
-<connection>
-<GID>620</GID>
-<name>clock</name></connection>
-<intersection>-634 2</intersection></vsegment>
+<points>143.5,-634,143.5,-630</points>
+<intersection>-634 2</intersection>
+<intersection>-630 31</intersection></vsegment>
 <vsegment>
 <ID>14</ID>
-<points>153,-634,153,-630</points>
-<connection>
-<GID>624</GID>
-<name>clock</name></connection>
-<intersection>-634 2</intersection></vsegment>
+<points>157,-634,157,-630</points>
+<intersection>-634 2</intersection>
+<intersection>-630 32</intersection></vsegment>
 <vsegment>
 <ID>16</ID>
-<points>135,-634,135,-630</points>
-<connection>
-<GID>616</GID>
-<name>clock</name></connection>
-<intersection>-634 2</intersection></vsegment>
+<points>134.5,-634,134.5,-630</points>
+<intersection>-634 2</intersection>
+<intersection>-630 30</intersection></vsegment>
 <vsegment>
 <ID>20</ID>
 <points>93,-642,93,-634</points>
@@ -22704,16 +22695,65 @@
 <intersection>-634 2</intersection></vsegment>
 <vsegment>
 <ID>24</ID>
-<points>173,-634,173,-617.5</points>
+<points>173,-634,173,-633.5</points>
 <intersection>-634 2</intersection>
-<intersection>-617.5 25</intersection></vsegment>
+<intersection>-633.5 25</intersection></vsegment>
 <hsegment>
 <ID>25</ID>
-<points>173,-617.5,178,-617.5</points>
+<points>173,-633.5,180,-633.5</points>
 <connection>
 <GID>667</GID>
 <name>IN_0</name></connection>
-<intersection>173 24</intersection></hsegment></shape></wire>
+<intersection>173 24</intersection></hsegment>
+<hsegment>
+<ID>28</ID>
+<points>116.5,-630,118,-630</points>
+<connection>
+<GID>608</GID>
+<name>clock</name></connection>
+<intersection>116.5 7</intersection></hsegment>
+<hsegment>
+<ID>29</ID>
+<points>125.5,-630,128,-630</points>
+<connection>
+<GID>612</GID>
+<name>clock</name></connection>
+<intersection>125.5 6</intersection></hsegment>
+<hsegment>
+<ID>30</ID>
+<points>134.5,-630,138,-630</points>
+<connection>
+<GID>616</GID>
+<name>clock</name></connection>
+<intersection>134.5 16</intersection></hsegment>
+<hsegment>
+<ID>31</ID>
+<points>143.5,-630,148,-630</points>
+<connection>
+<GID>620</GID>
+<name>clock</name></connection>
+<intersection>143.5 12</intersection></hsegment>
+<hsegment>
+<ID>32</ID>
+<points>157,-630,158,-630</points>
+<connection>
+<GID>624</GID>
+<name>clock</name></connection>
+<intersection>157 14</intersection></hsegment>
+<hsegment>
+<ID>33</ID>
+<points>161.5,-630,168,-630</points>
+<connection>
+<GID>628</GID>
+<name>clock</name></connection>
+<intersection>161.5 11</intersection></hsegment>
+<hsegment>
+<ID>35</ID>
+<points>107.5,-630,108,-630</points>
+<connection>
+<GID>604</GID>
+<name>clock</name></connection>
+<intersection>107.5 8</intersection></hsegment></shape></wire>
 <wire>
 <ID>587</ID>
 <shape>
@@ -22743,15 +22783,15 @@
 <shape>
 <hsegment>
 <ID>1</ID>
-<points>93,-610.5,159.5,-610.5</points>
+<points>93,-610.5,165,-610.5</points>
 <intersection>93 27</intersection>
 <intersection>105 42</intersection>
-<intersection>114 34</intersection>
-<intersection>123 37</intersection>
-<intersection>132.5 38</intersection>
-<intersection>141.5 39</intersection>
-<intersection>150.5 40</intersection>
-<intersection>159.5 36</intersection></hsegment>
+<intersection>115 34</intersection>
+<intersection>125 37</intersection>
+<intersection>135 38</intersection>
+<intersection>145 39</intersection>
+<intersection>155 40</intersection>
+<intersection>165 36</intersection></hsegment>
 <vsegment>
 <ID>27</ID>
 <points>93,-619,93,-610.5</points>
@@ -22759,42 +22799,42 @@
 <intersection>-610.5 1</intersection></vsegment>
 <vsegment>
 <ID>34</ID>
-<points>114,-613,114,-610.5</points>
+<points>115,-613,115,-610.5</points>
 <connection>
 <GID>605</GID>
 <name>IN_0</name></connection>
 <intersection>-610.5 1</intersection></vsegment>
 <vsegment>
 <ID>36</ID>
-<points>159.5,-613,159.5,-610.5</points>
+<points>165,-613,165,-610.5</points>
 <connection>
 <GID>625</GID>
 <name>IN_0</name></connection>
 <intersection>-610.5 1</intersection></vsegment>
 <vsegment>
 <ID>37</ID>
-<points>123,-613,123,-610.5</points>
+<points>125,-613,125,-610.5</points>
 <connection>
 <GID>609</GID>
 <name>IN_0</name></connection>
 <intersection>-610.5 1</intersection></vsegment>
 <vsegment>
 <ID>38</ID>
-<points>132.5,-613,132.5,-610.5</points>
+<points>135,-613,135,-610.5</points>
 <connection>
 <GID>613</GID>
 <name>IN_0</name></connection>
 <intersection>-610.5 1</intersection></vsegment>
 <vsegment>
 <ID>39</ID>
-<points>141.5,-613,141.5,-610.5</points>
+<points>145,-613,145,-610.5</points>
 <connection>
 <GID>617</GID>
 <name>IN_0</name></connection>
 <intersection>-610.5 1</intersection></vsegment>
 <vsegment>
 <ID>40</ID>
-<points>150.5,-613,150.5,-610.5</points>
+<points>155,-613,155,-610.5</points>
 <connection>
 <GID>621</GID>
 <name>IN_0</name></connection>
@@ -22891,46 +22931,56 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>101.5,-624.5,101.5,-613</points>
-<intersection>-624.5 1</intersection>
+<points>101,-624,101,-613</points>
+<intersection>-624 1</intersection>
 <intersection>-613 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>101.5,-624.5,104.5,-624.5</points>
-<intersection>101.5 0</intersection>
-<intersection>104.5 3</intersection></hsegment>
+<points>101,-624,104,-624</points>
+<intersection>101 0</intersection>
+<intersection>104 3</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>101.5,-613,103,-613</points>
+<points>101,-613,103,-613</points>
 <connection>
 <GID>599</GID>
 <name>IN_1</name></connection>
-<intersection>101.5 0</intersection></hsegment>
+<intersection>101 0</intersection></hsegment>
 <vsegment>
 <ID>3</ID>
-<points>104.5,-627,104.5,-624.5</points>
+<points>104,-627,104,-624</points>
 <connection>
 <GID>598</GID>
 <name>OUT_0</name></connection>
-<intersection>-624.5 1</intersection></vsegment></shape></wire>
+<intersection>-624 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>592</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>113,-619,114,-619</points>
+<points>114,-619,115,-619</points>
+<intersection>114 5</intersection>
+<intersection>115 6</intersection></hsegment>
+<vsegment>
+<ID>5</ID>
+<points>114,-619,114,-619</points>
+<connection>
+<GID>605</GID>
+<name>OUT</name></connection>
+<intersection>-619 0</intersection></vsegment>
+<vsegment>
+<ID>6</ID>
+<points>115,-619,115,-619</points>
 <connection>
 <GID>607</GID>
 <name>IN_1</name></connection>
-<connection>
-<GID>605</GID>
-<name>OUT</name></connection></hsegment></shape></wire>
+<intersection>-619 0</intersection></vsegment></shape></wire>
 <wire>
 <ID>593</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>116,-619,117,-619</points>
+<points>117,-619,118,-619</points>
 <connection>
 <GID>607</GID>
 <name>IN_0</name></connection>
@@ -22942,34 +22992,34 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>110.5,-624.5,110.5,-613</points>
-<intersection>-624.5 1</intersection>
+<points>111,-624,111,-613</points>
+<intersection>-624 1</intersection>
 <intersection>-613 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>110.5,-624.5,113.5,-624.5</points>
-<intersection>110.5 0</intersection>
-<intersection>113.5 3</intersection></hsegment>
+<points>111,-624,114,-624</points>
+<intersection>111 0</intersection>
+<intersection>114 3</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>110.5,-613,112,-613</points>
+<points>111,-613,113,-613</points>
 <connection>
 <GID>605</GID>
 <name>IN_1</name></connection>
-<intersection>110.5 0</intersection></hsegment>
+<intersection>111 0</intersection></hsegment>
 <vsegment>
 <ID>3</ID>
-<points>113.5,-627,113.5,-624.5</points>
+<points>114,-627,114,-624</points>
 <connection>
 <GID>604</GID>
 <name>OUT_0</name></connection>
-<intersection>-624.5 1</intersection></vsegment></shape></wire>
+<intersection>-624 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>595</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>122,-619,123,-619</points>
+<points>124,-619,125,-619</points>
 <connection>
 <GID>611</GID>
 <name>IN_1</name></connection>
@@ -22981,7 +23031,7 @@
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>125,-619,126,-619</points>
+<points>127,-619,128,-619</points>
 <connection>
 <GID>611</GID>
 <name>IN_0</name></connection>
@@ -22993,34 +23043,34 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>119.5,-624.5,119.5,-613</points>
-<intersection>-624.5 1</intersection>
+<points>121,-624,121,-613</points>
+<intersection>-624 1</intersection>
 <intersection>-613 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>119.5,-624.5,122.5,-624.5</points>
-<intersection>119.5 0</intersection>
-<intersection>122.5 3</intersection></hsegment>
+<points>121,-624,124,-624</points>
+<intersection>121 0</intersection>
+<intersection>124 3</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>119.5,-613,121,-613</points>
+<points>121,-613,123,-613</points>
 <connection>
 <GID>609</GID>
 <name>IN_1</name></connection>
-<intersection>119.5 0</intersection></hsegment>
+<intersection>121 0</intersection></hsegment>
 <vsegment>
 <ID>3</ID>
-<points>122.5,-627,122.5,-624.5</points>
+<points>124,-627,124,-624</points>
 <connection>
 <GID>608</GID>
 <name>OUT_0</name></connection>
-<intersection>-624.5 1</intersection></vsegment></shape></wire>
+<intersection>-624 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>598</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>131.5,-619,132.5,-619</points>
+<points>134,-619,135,-619</points>
 <connection>
 <GID>615</GID>
 <name>IN_1</name></connection>
@@ -23032,46 +23082,46 @@
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>134.5,-619,135.5,-619</points>
-<connection>
-<GID>615</GID>
-<name>IN_0</name></connection>
+<points>137,-619,138,-619</points>
 <connection>
 <GID>614</GID>
-<name>OUT</name></connection></hsegment></shape></wire>
+<name>OUT</name></connection>
+<connection>
+<GID>615</GID>
+<name>IN_0</name></connection></hsegment></shape></wire>
 <wire>
 <ID>600</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>129,-624.5,129,-613</points>
-<intersection>-624.5 1</intersection>
+<points>131,-624,131,-613</points>
+<intersection>-624 1</intersection>
 <intersection>-613 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>129,-624.5,132,-624.5</points>
-<intersection>129 0</intersection>
-<intersection>132 3</intersection></hsegment>
+<points>131,-624,134,-624</points>
+<intersection>131 0</intersection>
+<intersection>134 3</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>129,-613,130.5,-613</points>
+<points>131,-613,133,-613</points>
 <connection>
 <GID>613</GID>
 <name>IN_1</name></connection>
-<intersection>129 0</intersection></hsegment>
+<intersection>131 0</intersection></hsegment>
 <vsegment>
 <ID>3</ID>
-<points>132,-627,132,-624.5</points>
+<points>134,-627,134,-624</points>
 <connection>
 <GID>612</GID>
 <name>OUT_0</name></connection>
-<intersection>-624.5 1</intersection></vsegment></shape></wire>
+<intersection>-624 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>601</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>140.5,-619,141.5,-619</points>
+<points>144,-619,145,-619</points>
 <connection>
 <GID>619</GID>
 <name>IN_1</name></connection>
@@ -23083,7 +23133,7 @@
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>143.5,-619,144.5,-619</points>
+<points>147,-619,148,-619</points>
 <connection>
 <GID>619</GID>
 <name>IN_0</name></connection>
@@ -23095,34 +23145,34 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>138,-624.5,138,-613</points>
-<intersection>-624.5 1</intersection>
+<points>141,-624,141,-613</points>
+<intersection>-624 1</intersection>
 <intersection>-613 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>138,-624.5,141,-624.5</points>
-<intersection>138 0</intersection>
-<intersection>141 3</intersection></hsegment>
+<points>141,-624,144,-624</points>
+<intersection>141 0</intersection>
+<intersection>144 3</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>138,-613,139.5,-613</points>
+<points>141,-613,143,-613</points>
 <connection>
 <GID>617</GID>
 <name>IN_1</name></connection>
-<intersection>138 0</intersection></hsegment>
+<intersection>141 0</intersection></hsegment>
 <vsegment>
 <ID>3</ID>
-<points>141,-627,141,-624.5</points>
+<points>144,-627,144,-624</points>
 <connection>
 <GID>616</GID>
 <name>OUT_0</name></connection>
-<intersection>-624.5 1</intersection></vsegment></shape></wire>
+<intersection>-624 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>604</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>149.5,-619,150.5,-619</points>
+<points>154,-619,155,-619</points>
 <connection>
 <GID>623</GID>
 <name>IN_1</name></connection>
@@ -23134,7 +23184,7 @@
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>152.5,-619,153.5,-619</points>
+<points>157,-619,158,-619</points>
 <connection>
 <GID>623</GID>
 <name>IN_0</name></connection>
@@ -23146,34 +23196,34 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>147,-624.5,147,-613</points>
-<intersection>-624.5 1</intersection>
+<points>151,-624,151,-613</points>
+<intersection>-624 1</intersection>
 <intersection>-613 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>147,-624.5,150,-624.5</points>
-<intersection>147 0</intersection>
-<intersection>150 3</intersection></hsegment>
+<points>151,-624,154,-624</points>
+<intersection>151 0</intersection>
+<intersection>154 3</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>147,-613,148.5,-613</points>
+<points>151,-613,153,-613</points>
 <connection>
 <GID>621</GID>
 <name>IN_1</name></connection>
-<intersection>147 0</intersection></hsegment>
+<intersection>151 0</intersection></hsegment>
 <vsegment>
 <ID>3</ID>
-<points>150,-627,150,-624.5</points>
+<points>154,-627,154,-624</points>
 <connection>
 <GID>620</GID>
 <name>OUT_0</name></connection>
-<intersection>-624.5 1</intersection></vsegment></shape></wire>
+<intersection>-624 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>607</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>158.5,-619,159.5,-619</points>
+<points>164,-619,165,-619</points>
 <connection>
 <GID>627</GID>
 <name>IN_1</name></connection>
@@ -23185,7 +23235,7 @@
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>161.5,-619,162.5,-619</points>
+<points>167,-619,168,-619</points>
 <connection>
 <GID>627</GID>
 <name>IN_0</name></connection>
@@ -23197,45 +23247,45 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>156,-624.5,156,-613</points>
-<intersection>-624.5 1</intersection>
+<points>161,-624,161,-613</points>
+<intersection>-624 1</intersection>
 <intersection>-613 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>156,-624.5,159,-624.5</points>
-<intersection>156 0</intersection>
-<intersection>159 3</intersection></hsegment>
+<points>161,-624,164,-624</points>
+<intersection>161 0</intersection>
+<intersection>164 3</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>156,-613,157.5,-613</points>
+<points>161,-613,163,-613</points>
 <connection>
 <GID>625</GID>
 <name>IN_1</name></connection>
-<intersection>156 0</intersection></hsegment>
+<intersection>161 0</intersection></hsegment>
 <vsegment>
 <ID>3</ID>
-<points>159,-627,159,-624.5</points>
+<points>164,-627,164,-624</points>
 <connection>
 <GID>624</GID>
 <name>OUT_0</name></connection>
-<intersection>-624.5 1</intersection></vsegment></shape></wire>
+<intersection>-624 1</intersection></vsegment></shape></wire>
 <wire>
 <ID>610</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>98.5,-627,98.5,-609.5</points>
+<points>98,-627,98,-609.5</points>
 <connection>
 <GID>598</GID>
 <name>IN_0</name></connection>
 <intersection>-609.5 2</intersection></vsegment>
 <hsegment>
 <ID>2</ID>
-<points>92.5,-609.5,98.5,-609.5</points>
+<points>92.5,-609.5,98,-609.5</points>
 <connection>
 <GID>630</GID>
 <name>OUT_0</name></connection>
-<intersection>98.5 0</intersection></hsegment></shape></wire>
+<intersection>98 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>611</ID>
 <shape>
@@ -23321,7 +23371,7 @@
 <intersection>-627 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>106,-627,107.5,-627</points>
+<points>106,-627,108,-627</points>
 <connection>
 <GID>604</GID>
 <name>IN_0</name></connection>
@@ -23331,205 +23381,205 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>124,-627,124,-625</points>
+<points>126,-627,126,-625</points>
 <connection>
 <GID>611</GID>
 <name>OUT</name></connection>
 <intersection>-627 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>124,-627,126,-627</points>
+<points>126,-627,128,-627</points>
 <connection>
 <GID>612</GID>
 <name>IN_0</name></connection>
-<intersection>124 0</intersection></hsegment></shape></wire>
+<intersection>126 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>614</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>115,-627,115,-625</points>
+<points>116,-627,116,-625</points>
 <connection>
 <GID>607</GID>
 <name>OUT</name></connection>
 <intersection>-627 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>115,-627,116.5,-627</points>
+<points>116,-627,118,-627</points>
 <connection>
 <GID>608</GID>
 <name>IN_0</name></connection>
-<intersection>115 0</intersection></hsegment></shape></wire>
+<intersection>116 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>615</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>133.5,-627,133.5,-625</points>
+<points>136,-627,136,-625</points>
 <connection>
 <GID>615</GID>
 <name>OUT</name></connection>
 <intersection>-627 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>133.5,-627,135,-627</points>
+<points>136,-627,138,-627</points>
 <connection>
 <GID>616</GID>
 <name>IN_0</name></connection>
-<intersection>133.5 0</intersection></hsegment></shape></wire>
+<intersection>136 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>616</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>142.5,-627,142.5,-625</points>
+<points>146,-627,146,-625</points>
 <connection>
 <GID>619</GID>
 <name>OUT</name></connection>
 <intersection>-627 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>142.5,-627,144,-627</points>
+<points>146,-627,148,-627</points>
 <connection>
 <GID>620</GID>
 <name>IN_0</name></connection>
-<intersection>142.5 0</intersection></hsegment></shape></wire>
+<intersection>146 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>617</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>151.5,-627,151.5,-625</points>
+<points>156,-627,156,-625</points>
 <connection>
 <GID>623</GID>
 <name>OUT</name></connection>
 <intersection>-627 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>151.5,-627,153,-627</points>
+<points>156,-627,158,-627</points>
 <connection>
 <GID>624</GID>
 <name>IN_0</name></connection>
-<intersection>151.5 0</intersection></hsegment></shape></wire>
+<intersection>156 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>618</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>160.5,-627,160.5,-625</points>
+<points>166,-627,166,-625</points>
 <connection>
 <GID>627</GID>
 <name>OUT</name></connection>
 <intersection>-627 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>160.5,-627,162,-627</points>
+<points>166,-627,168,-627</points>
 <connection>
 <GID>628</GID>
 <name>IN_0</name></connection>
-<intersection>160.5 0</intersection></hsegment></shape></wire>
+<intersection>166 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>619</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>161.5,-613,161.5,-602.5</points>
+<points>167,-613,167,-602.5</points>
 <connection>
 <GID>626</GID>
 <name>IN_1</name></connection>
 <intersection>-602.5 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>92.5,-602.5,161.5,-602.5</points>
+<points>92.5,-602.5,167,-602.5</points>
 <connection>
 <GID>630</GID>
 <name>OUT_7</name></connection>
-<intersection>161.5 0</intersection></hsegment></shape></wire>
+<intersection>167 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>620</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>152.5,-613,152.5,-603.5</points>
+<points>157,-613,157,-603.5</points>
 <connection>
 <GID>622</GID>
 <name>IN_1</name></connection>
 <intersection>-603.5 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>92.5,-603.5,152.5,-603.5</points>
+<points>92.5,-603.5,157,-603.5</points>
 <connection>
 <GID>630</GID>
 <name>OUT_6</name></connection>
-<intersection>152.5 0</intersection></hsegment></shape></wire>
+<intersection>157 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>621</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>143.5,-613,143.5,-604.5</points>
+<points>147,-613,147,-604.5</points>
 <connection>
 <GID>618</GID>
 <name>IN_1</name></connection>
 <intersection>-604.5 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>92.5,-604.5,143.5,-604.5</points>
+<points>92.5,-604.5,147,-604.5</points>
 <connection>
 <GID>630</GID>
 <name>OUT_5</name></connection>
-<intersection>143.5 0</intersection></hsegment></shape></wire>
+<intersection>147 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>622</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>134.5,-613,134.5,-605.5</points>
+<points>137,-613,137,-605.5</points>
 <connection>
 <GID>614</GID>
 <name>IN_1</name></connection>
 <intersection>-605.5 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>92.5,-605.5,134.5,-605.5</points>
+<points>92.5,-605.5,137,-605.5</points>
 <connection>
 <GID>630</GID>
 <name>OUT_4</name></connection>
-<intersection>134.5 0</intersection></hsegment></shape></wire>
+<intersection>137 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>623</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>125,-613,125,-606.5</points>
+<points>127,-613,127,-606.5</points>
 <connection>
 <GID>610</GID>
 <name>IN_1</name></connection>
 <intersection>-606.5 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>92.5,-606.5,125,-606.5</points>
+<points>92.5,-606.5,127,-606.5</points>
 <connection>
 <GID>630</GID>
 <name>OUT_3</name></connection>
-<intersection>125 0</intersection></hsegment></shape></wire>
+<intersection>127 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>624</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>116,-613,116,-607.5</points>
+<points>117,-613,117,-607.5</points>
 <connection>
 <GID>606</GID>
 <name>IN_1</name></connection>
 <intersection>-607.5 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>92.5,-607.5,116,-607.5</points>
+<points>92.5,-607.5,117,-607.5</points>
 <connection>
 <GID>630</GID>
 <name>OUT_2</name></connection>
-<intersection>116 0</intersection></hsegment></shape></wire>
+<intersection>117 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>625</ID>
 <shape>
@@ -23569,23 +23619,23 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>82,-611,82,-608.5</points>
+<points>82.5,-611,82.5,-608.5</points>
 <intersection>-611 1</intersection>
 <intersection>-608.5 2</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>79.5,-611,82,-611</points>
+<points>79.5,-611,82.5,-611</points>
 <connection>
 <GID>639</GID>
 <name>OUT_0</name></connection>
-<intersection>82 0</intersection></hsegment>
+<intersection>82.5 0</intersection></hsegment>
 <hsegment>
 <ID>2</ID>
-<points>82,-608.5,84.5,-608.5</points>
+<points>82.5,-608.5,84.5,-608.5</points>
 <connection>
 <GID>630</GID>
 <name>IN_1</name></connection>
-<intersection>82 0</intersection></hsegment></shape></wire>
+<intersection>82.5 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>628</ID>
 <shape>
@@ -23735,34 +23785,24 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-598,184.5,-596</points>
+<points>187,-598,187,-596</points>
 <connection>
 <GID>642</GID>
 <name>IN_0</name></connection>
 <intersection>-598 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>178.5,-598,184.5,-598</points>
-<intersection>178.5 2</intersection>
-<intersection>184.5 0</intersection></hsegment>
-<vsegment>
-<ID>2</ID>
-<points>178.5,-598,178.5,-585</points>
-<intersection>-598 1</intersection>
-<intersection>-585 3</intersection></vsegment>
-<hsegment>
-<ID>3</ID>
-<points>173.5,-585,178.5,-585</points>
+<points>180,-598,187,-598</points>
 <connection>
 <GID>515</GID>
 <name>OUT</name></connection>
-<intersection>178.5 2</intersection></hsegment></shape></wire>
+<intersection>187 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>636</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-590,184.5,-587.5</points>
+<points>187,-590,187,-588</points>
 <connection>
 <GID>643</GID>
 <name>IN_0</name></connection>
@@ -23772,134 +23812,124 @@
 <intersection>-589 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>184.5,-589,207.5,-589</points>
-<intersection>184.5 0</intersection>
-<intersection>207.5 2</intersection></hsegment>
+<points>187,-589,198,-589</points>
+<intersection>187 0</intersection>
+<intersection>198 2</intersection></hsegment>
 <vsegment>
 <ID>2</ID>
-<points>207.5,-589,207.5,-570</points>
+<points>198,-589,198,-568</points>
 <intersection>-589 1</intersection>
-<intersection>-570 3</intersection></vsegment>
+<intersection>-568 3</intersection></vsegment>
 <hsegment>
 <ID>3</ID>
-<points>207.5,-570,209.5,-570</points>
+<points>198,-568,199,-568</points>
 <connection>
 <GID>641</GID>
 <name>IN_0</name></connection>
-<intersection>207.5 2</intersection></hsegment></shape></wire>
+<intersection>198 2</intersection></hsegment></shape></wire>
 <wire>
 <ID>637</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-581.5,184.5,-579</points>
+<points>187,-582,187,-580</points>
 <connection>
 <GID>644</GID>
 <name>IN_0</name></connection>
 <connection>
 <GID>643</GID>
 <name>OUT_0</name></connection>
-<intersection>-580.5 3</intersection></vsegment>
+<intersection>-581 3</intersection></vsegment>
 <hsegment>
 <ID>3</ID>
-<points>184.5,-580.5,206.5,-580.5</points>
-<intersection>184.5 0</intersection>
-<intersection>206.5 4</intersection></hsegment>
+<points>187,-581,197,-581</points>
+<intersection>187 0</intersection>
+<intersection>197 4</intersection></hsegment>
 <vsegment>
 <ID>4</ID>
-<points>206.5,-580.5,206.5,-569</points>
-<intersection>-580.5 3</intersection>
-<intersection>-569 5</intersection></vsegment>
+<points>197,-581,197,-567</points>
+<intersection>-581 3</intersection>
+<intersection>-567 5</intersection></vsegment>
 <hsegment>
 <ID>5</ID>
-<points>206.5,-569,209.5,-569</points>
+<points>197,-567,199,-567</points>
 <connection>
 <GID>641</GID>
 <name>IN_1</name></connection>
-<intersection>206.5 4</intersection></hsegment></shape></wire>
+<intersection>197 4</intersection></hsegment></shape></wire>
 <wire>
 <ID>638</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-573,184.5,-571</points>
+<points>187,-574,187,-572</points>
 <connection>
 <GID>645</GID>
 <name>IN_0</name></connection>
 <connection>
 <GID>644</GID>
 <name>OUT_0</name></connection>
-<intersection>-572 6</intersection></vsegment>
+<intersection>-573 6</intersection></vsegment>
 <hsegment>
 <ID>6</ID>
-<points>184.5,-572,205.5,-572</points>
-<intersection>184.5 0</intersection>
-<intersection>205.5 7</intersection></hsegment>
+<points>187,-573,196,-573</points>
+<intersection>187 0</intersection>
+<intersection>196 7</intersection></hsegment>
 <vsegment>
 <ID>7</ID>
-<points>205.5,-572,205.5,-568</points>
-<intersection>-572 6</intersection>
-<intersection>-568 8</intersection></vsegment>
+<points>196,-573,196,-566</points>
+<intersection>-573 6</intersection>
+<intersection>-566 8</intersection></vsegment>
 <hsegment>
 <ID>8</ID>
-<points>205.5,-568,209.5,-568</points>
+<points>196,-566,199,-566</points>
 <connection>
 <GID>641</GID>
 <name>IN_2</name></connection>
-<intersection>205.5 7</intersection></hsegment></shape></wire>
+<intersection>196 7</intersection></hsegment></shape></wire>
 <wire>
 <ID>639</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-565,184.5,-563.5</points>
+<points>187,-566,187,-564</points>
 <connection>
 <GID>646</GID>
 <name>IN_0</name></connection>
 <connection>
 <GID>645</GID>
 <name>OUT_0</name></connection>
-<intersection>-564 3</intersection></vsegment>
+<intersection>-565 3</intersection></vsegment>
 <hsegment>
 <ID>3</ID>
-<points>184.5,-564,204.5,-564</points>
-<intersection>184.5 0</intersection>
-<intersection>204.5 4</intersection></hsegment>
-<vsegment>
-<ID>4</ID>
-<points>204.5,-567,204.5,-564</points>
-<intersection>-567 5</intersection>
-<intersection>-564 3</intersection></vsegment>
-<hsegment>
-<ID>5</ID>
-<points>204.5,-567,209.5,-567</points>
+<points>187,-565,199,-565</points>
 <connection>
 <GID>641</GID>
 <name>IN_3</name></connection>
-<intersection>204.5 4</intersection></hsegment></shape></wire>
+<intersection>187 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>640</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>205.5,-566,205.5,-557</points>
-<intersection>-566 5</intersection>
+<points>195,-564,195,-557</points>
+<intersection>-564 5</intersection>
 <intersection>-557 6</intersection></vsegment>
 <hsegment>
 <ID>5</ID>
-<points>205.5,-566,209.5,-566</points>
+<points>195,-564,199,-564</points>
 <connection>
 <GID>641</GID>
 <name>IN_4</name></connection>
-<intersection>205.5 0</intersection></hsegment>
+<intersection>195 0</intersection></hsegment>
 <hsegment>
 <ID>6</ID>
-<points>184.5,-557,205.5,-557</points>
-<intersection>184.5 8</intersection>
-<intersection>205.5 0</intersection></hsegment>
+<points>187,-557,195,-557</points>
+<intersection>187 8</intersection>
+<intersection>195 0</intersection></hsegment>
 <vsegment>
 <ID>8</ID>
-<points>184.5,-557.5,184.5,-556</points>
+<points>187,-558,187,-556</points>
 <connection>
 <GID>647</GID>
 <name>IN_0</name></connection>
@@ -23912,7 +23942,7 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-550,184.5,-548.5</points>
+<points>187,-550,187,-548</points>
 <connection>
 <GID>648</GID>
 <name>IN_0</name></connection>
@@ -23922,79 +23952,84 @@
 <intersection>-549 3</intersection></vsegment>
 <hsegment>
 <ID>3</ID>
-<points>184.5,-549,206.5,-549</points>
-<intersection>184.5 0</intersection>
-<intersection>206.5 4</intersection></hsegment>
+<points>187,-549,196,-549</points>
+<intersection>187 0</intersection>
+<intersection>196 4</intersection></hsegment>
 <vsegment>
 <ID>4</ID>
-<points>206.5,-565,206.5,-549</points>
-<intersection>-565 5</intersection>
+<points>196,-563,196,-549</points>
+<intersection>-563 5</intersection>
 <intersection>-549 3</intersection></vsegment>
 <hsegment>
 <ID>5</ID>
-<points>206.5,-565,209.5,-565</points>
+<points>196,-563,199,-563</points>
 <connection>
 <GID>641</GID>
 <name>IN_5</name></connection>
-<intersection>206.5 4</intersection></hsegment></shape></wire>
+<intersection>196 4</intersection></hsegment></shape></wire>
 <wire>
 <ID>642</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-542.5,184.5,-541</points>
+<points>187,-542,187,-540</points>
 <connection>
 <GID>649</GID>
 <name>IN_0</name></connection>
 <connection>
 <GID>648</GID>
 <name>OUT_0</name></connection>
-<intersection>-541.5 3</intersection></vsegment>
+<intersection>-541 3</intersection></vsegment>
 <hsegment>
 <ID>3</ID>
-<points>184.5,-541.5,207.5,-541.5</points>
-<intersection>184.5 0</intersection>
-<intersection>207.5 4</intersection></hsegment>
+<points>187,-541,197,-541</points>
+<intersection>187 0</intersection>
+<intersection>197 4</intersection></hsegment>
 <vsegment>
 <ID>4</ID>
-<points>207.5,-564,207.5,-541.5</points>
-<intersection>-564 5</intersection>
-<intersection>-541.5 3</intersection></vsegment>
+<points>197,-562,197,-541</points>
+<intersection>-562 5</intersection>
+<intersection>-541 3</intersection></vsegment>
 <hsegment>
 <ID>5</ID>
-<points>207.5,-564,209.5,-564</points>
+<points>197,-562,199,-562</points>
 <connection>
 <GID>641</GID>
 <name>IN_6</name></connection>
-<intersection>207.5 4</intersection></hsegment></shape></wire>
+<intersection>197 4</intersection></hsegment></shape></wire>
 <wire>
 <ID>643</ID>
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>184.5,-535,184.5,-532.5</points>
+<points>187,-534,187,-533</points>
 <connection>
 <GID>649</GID>
 <name>OUT_0</name></connection>
-<intersection>-532.5 1</intersection></vsegment>
+<intersection>-533 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>184.5,-532.5,209.5,-532.5</points>
-<intersection>184.5 0</intersection>
-<intersection>209.5 2</intersection></hsegment>
+<points>187,-533,198,-533</points>
+<intersection>187 0</intersection>
+<intersection>198 2</intersection></hsegment>
 <vsegment>
 <ID>2</ID>
-<points>209.5,-563,209.5,-532.5</points>
+<points>198,-561,198,-533</points>
+<intersection>-561 3</intersection>
+<intersection>-533 1</intersection></vsegment>
+<hsegment>
+<ID>3</ID>
+<points>198,-561,199,-561</points>
 <connection>
 <GID>641</GID>
 <name>IN_7</name></connection>
-<intersection>-532.5 1</intersection></vsegment></shape></wire>
+<intersection>198 2</intersection></hsegment></shape></wire>
 <wire>
 <ID>644</ID>
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>212.5,-561,212.5,-561</points>
+<points>202,-559,202,-559</points>
 <connection>
 <GID>641</GID>
 <name>load</name></connection>
@@ -24006,18 +24041,23 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>168,-627,168,-586</points>
+<points>175,-627,175,-599</points>
+<intersection>-627 5</intersection>
+<intersection>-599 6</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>174,-627,175,-627</points>
 <connection>
 <GID>628</GID>
 <name>OUT_0</name></connection>
-<intersection>-586 1</intersection></vsegment>
+<intersection>175 0</intersection></hsegment>
 <hsegment>
-<ID>1</ID>
-<points>168,-586,169.5,-586</points>
+<ID>6</ID>
+<points>175,-599,176,-599</points>
 <connection>
 <GID>515</GID>
 <name>IN_0</name></connection>
-<intersection>168 0</intersection></hsegment></shape></wire>
+<intersection>175 0</intersection></hsegment></shape></wire>
 <wire>
 <ID>647</ID>
 <shape>
@@ -24030,57 +24070,57 @@
 <intersection>-612 1</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>98,-612,163.5,-612</points>
+<points>98,-612,169,-612</points>
 <connection>
 <GID>655</GID>
 <name>OUT_0</name></connection>
 <intersection>109 0</intersection>
-<intersection>118 5</intersection>
-<intersection>127 6</intersection>
-<intersection>136.5 7</intersection>
-<intersection>145.5 8</intersection>
-<intersection>154.5 9</intersection>
-<intersection>163.5 4</intersection></hsegment>
-<vsegment>
-<ID>4</ID>
-<points>163.5,-613,163.5,-612</points>
-<connection>
-<GID>626</GID>
-<name>IN_0</name></connection>
-<intersection>-612 1</intersection></vsegment>
+<intersection>119 5</intersection>
+<intersection>129 6</intersection>
+<intersection>139 7</intersection>
+<intersection>149 8</intersection>
+<intersection>159 10</intersection>
+<intersection>169 11</intersection></hsegment>
 <vsegment>
 <ID>5</ID>
-<points>118,-613,118,-612</points>
+<points>119,-613,119,-612</points>
 <connection>
 <GID>606</GID>
 <name>IN_0</name></connection>
 <intersection>-612 1</intersection></vsegment>
 <vsegment>
 <ID>6</ID>
-<points>127,-613,127,-612</points>
+<points>129,-613,129,-612</points>
 <connection>
 <GID>610</GID>
 <name>IN_0</name></connection>
 <intersection>-612 1</intersection></vsegment>
 <vsegment>
 <ID>7</ID>
-<points>136.5,-613,136.5,-612</points>
+<points>139,-613,139,-612</points>
 <connection>
 <GID>614</GID>
 <name>IN_0</name></connection>
 <intersection>-612 1</intersection></vsegment>
 <vsegment>
 <ID>8</ID>
-<points>145.5,-613,145.5,-612</points>
+<points>149,-613,149,-612</points>
 <connection>
 <GID>618</GID>
 <name>IN_0</name></connection>
 <intersection>-612 1</intersection></vsegment>
 <vsegment>
-<ID>9</ID>
-<points>154.5,-613,154.5,-612</points>
+<ID>10</ID>
+<points>159,-613,159,-612</points>
 <connection>
 <GID>622</GID>
+<name>IN_0</name></connection>
+<intersection>-612 1</intersection></vsegment>
+<vsegment>
+<ID>11</ID>
+<points>169,-613,169,-612</points>
+<connection>
+<GID>626</GID>
 <name>IN_0</name></connection>
 <intersection>-612 1</intersection></vsegment></shape></wire>
 <wire>
@@ -24569,87 +24609,92 @@
 <shape>
 <vsegment>
 <ID>0</ID>
-<points>194,-618.5,194,-541</points>
-<intersection>-618.5 1</intersection>
+<points>194,-634.5,194,-540</points>
+<intersection>-634.5 1</intersection>
 <intersection>-596 4</intersection>
-<intersection>-587.5 3</intersection>
-<intersection>-579 10</intersection>
-<intersection>-571 9</intersection>
-<intersection>-563.5 8</intersection>
+<intersection>-588 3</intersection>
+<intersection>-580 10</intersection>
+<intersection>-575 31</intersection>
+<intersection>-572 9</intersection>
+<intersection>-564 8</intersection>
 <intersection>-556 11</intersection>
-<intersection>-548.5 12</intersection>
-<intersection>-541 6</intersection></vsegment>
+<intersection>-548 12</intersection>
+<intersection>-540 6</intersection></vsegment>
 <hsegment>
 <ID>1</ID>
-<points>184,-618.5,212.5,-618.5</points>
+<points>186,-634.5,194,-634.5</points>
 <connection>
 <GID>667</GID>
 <name>OUT</name></connection>
-<intersection>194 0</intersection>
-<intersection>212.5 14</intersection></hsegment>
+<intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>3</ID>
-<points>187.5,-587.5,194,-587.5</points>
+<points>190,-588,194,-588</points>
 <connection>
 <GID>643</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>4</ID>
-<points>187.5,-596,194,-596</points>
+<points>190,-596,194,-596</points>
 <connection>
 <GID>642</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>6</ID>
-<points>187.5,-541,194,-541</points>
+<points>190,-540,194,-540</points>
 <connection>
 <GID>649</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>8</ID>
-<points>187.5,-563.5,194,-563.5</points>
+<points>190,-564,194,-564</points>
 <connection>
 <GID>646</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>9</ID>
-<points>187.5,-571,194,-571</points>
+<points>190,-572,194,-572</points>
 <connection>
 <GID>645</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>10</ID>
-<points>187.5,-579,194,-579</points>
+<points>190,-580,194,-580</points>
 <connection>
 <GID>644</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>11</ID>
-<points>187.5,-556,194,-556</points>
+<points>190,-556,194,-556</points>
 <connection>
 <GID>647</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
 <hsegment>
 <ID>12</ID>
-<points>187.5,-548.5,194,-548.5</points>
+<points>190,-548,194,-548</points>
 <connection>
 <GID>648</GID>
 <name>clock</name></connection>
 <intersection>194 0</intersection></hsegment>
+<hsegment>
+<ID>31</ID>
+<points>194,-575,202,-575</points>
+<intersection>194 0</intersection>
+<intersection>202 32</intersection></hsegment>
 <vsegment>
-<ID>14</ID>
-<points>212.5,-618.5,212.5,-576</points>
+<ID>32</ID>
+<points>202,-575,202,-574</points>
 <connection>
 <GID>651</GID>
 <name>IN_0</name></connection>
-<intersection>-618.5 1</intersection></vsegment></shape></wire>
+<intersection>-575 31</intersection></vsegment></shape></wire>
 <wire>
 <ID>666</ID>
 <shape>
@@ -24672,7 +24717,7 @@
 <shape>
 <hsegment>
 <ID>0</ID>
-<points>212.5,-572,212.5,-572</points>
+<points>202,-570,202,-570</points>
 <connection>
 <GID>641</GID>
 <name>clock</name></connection>
@@ -25284,20 +25329,20 @@
 <GID>697</GID>
 <name>IN_1</name></connection></vsegment></shape></wire></page 0>
 <page 1>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 1>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 1>
 <page 2>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 2>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 2>
 <page 3>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 3>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 3>
 <page 4>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 4>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 4>
 <page 5>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 5>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 5>
 <page 6>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 6>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 6>
 <page 7>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 7>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 7>
 <page 8>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 8>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 8>
 <page 9>
-<PageViewport>-10.6032,3078.16,1767.4,2161.16</PageViewport></page 9></circuit>
+<PageViewport>-10.6032,3546.88,1767.4,2629.88</PageViewport></page 9></circuit>
